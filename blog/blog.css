@@ -2,12 +2,38 @@
     padding: 20px;
     background-color: #f9f9f9;
 }
-article {
+
+h1 {
+    font-family: 'Arial', sans-serif;
     margin-bottom: 20px;
 }
-h1, h2 {
-    font-family: 'Arial', sans-serif;
+
+article {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
 }
-p {
+
+article h2 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+article p {
     font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+}
+
+article ul {
+    margin-top: 15px;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+    font-family: 'Verdana', sans-serif;
+    color: #555;
 }

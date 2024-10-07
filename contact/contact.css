@@ -2,17 +2,31 @@
     padding: 20px;
     background-color: #fafafa;
 }
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 10px;
+}
+
 ul {
     list-style-type: none;
 }
+
 ul li {
     font-family: 'Verdana', sans-serif;
     margin-bottom: 10px;
 }
-a {
+
+ul li a {
     color: #0077cc;
     text-decoration: none;
 }
-a:hover {
+
+ul li a:hover {
     text-decoration: underline;
 }
