@@ -25,8 +25,9 @@ ul li {
 ul li a {
     color: #0077cc;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 ul li a:hover {
-    text-decoration: underline;
+    color: #ff6600; /* hover伪类 */
 }

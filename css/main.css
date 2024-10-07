@@ -29,6 +29,12 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+ul li {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
 .navbar ul li a:hover {
     background-color: #555;
     color: #fff;
@@ -46,4 +52,21 @@ main {
     padding-top: 60px;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
 
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar ul li a {
+        padding: 10px;
+    }
+}

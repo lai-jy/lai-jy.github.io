@@ -19,21 +19,9 @@ article h2 {
     margin-bottom: 10px;
     font-size: 24px;
     color: #333;
+    transition: transform 0.3s ease;
 }
 
-article p {
-    font-family: 'Verdana', sans-serif;
-    line-height: 1.6;
-}
-
-article ul {
-    margin-top: 15px;
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-article ul li {
-    margin-bottom: 10px;
-    font-family: 'Verdana', sans-serif;
-    color: #555;
+article h2:hover {
+    transform: scale(1.05); /* 使用 transform */
 }
