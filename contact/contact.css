@@ -1,0 +1,18 @@
+#contact {
+    padding: 20px;
+    background-color: #fafafa;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 10px;
+}
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
