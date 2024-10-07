@@ -24,10 +24,27 @@ body {
 .navbar ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* 鼠标悬停时的效果 */
 .navbar ul li a:hover {
-    text-decoration: underline;
+    background-color: #555;
+    color: #fff;
+}
+
+/* 当前页面的链接高亮 */
+.navbar ul li a.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* 伪类动画 */
+.navbar ul li a:hover::before {
+    content: '» ';
+    transition: content 0.3s ease;
 }
 
 .title {
