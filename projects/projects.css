@@ -1,0 +1,11 @@
+#projects {
+    padding: 20px;
+    background-color: #eef;
+}
+h1 {
+    font-family: 'Arial', sans-serif;
+}
+ul li {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 10px;
+}
