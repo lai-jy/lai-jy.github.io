@@ -25,3 +25,8 @@ article h2 {
 article h2:hover {
     transform: scale(1.05); /* 使用 transform */
 }
+
+article h2::after {
+    content: " ⚡"; /* 在每篇文章标题后面加一个闪电符号 */
+    color: #007bff;
+}

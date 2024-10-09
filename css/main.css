@@ -1,3 +1,25 @@
+/* 强调文本的样式 */
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+    background-color: #f0f8ff;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* 控制个人图片的样式 */
+.profile-img {
+    width: 150px; /* 设置图片宽度 */
+    height: auto; /* 确保图片按比例缩放 */
+    border-radius: 50%; /* 圆形图片 */
+    margin-bottom: 20px; /* 图片与文本之间的间距 */
+    display: block; /* 使图片独占一行 */
+    margin-left: auto;
+    margin-right: auto; /* 将图片居中显示 */
+}
+
+
+
 /* 导航栏样式 */
 .navbar {
     background-color: #333;
