@@ -17,6 +17,11 @@ ul {
     list-style-type: none;
 }
 
+ul li:first-child {
+    font-weight: normal;
+    color: inherit;
+}
+
 ul li {
     font-family: 'Verdana', sans-serif;
     margin-bottom: 10px;
