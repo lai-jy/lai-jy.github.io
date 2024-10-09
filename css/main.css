@@ -1,4 +1,3 @@
-/* 强调文本的样式 */
 .highlight {
     color: #007bff;
     font-weight: bold;
@@ -7,20 +6,16 @@
     border-radius: 4px;
 }
 
-/* 控制个人图片的样式 */
 .profile-img {
-    width: 150px; /* 设置图片宽度 */
-    height: auto; /* 确保图片按比例缩放 */
-    border-radius: 50%; /* 圆形图片 */
-    margin-bottom: 20px; /* 图片与文本之间的间距 */
-    display: block; /* 使图片独占一行 */
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+    display: block; 
     margin-left: auto;
-    margin-right: auto; /* 将图片居中显示 */
+    margin-right: auto; 
 }
 
-
-
-/* 导航栏样式 */
 .navbar {
     background-color: #333;
     color: white;
@@ -38,10 +33,9 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    margin-right: 50px; /* 保持标题与链接之间的间距 */
+    margin-right: 50px;
 }
 
-/* 导航栏链接样式 */
 .navbar ul {
     list-style: none;
     display: flex;
@@ -58,6 +52,11 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+ul li:first-child {
+    font-weight: bold;
+    color: #0077cc;
+}
+
 ul li {
     font-family: 'Verdana', sans-serif;
     margin-bottom: 15px;
@@ -69,14 +68,12 @@ ul li {
     color: #fff;
 }
 
-/* 当前活动页面的链接样式 */
 .navbar ul li a.active {
     background-color: #007bff;
     color: white;
     font-weight: bold;
 }
 
-/* 页面内容部分留出足够的顶部空间，防止被导航栏遮挡 */
 main {
     padding-top: 10px;
 }
